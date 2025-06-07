@@ -23,6 +23,7 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
   const [nextPostId, setNextPostId] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
   const theme: string = "地球平面説・天動説";
+  const postIntervalMs: number = 6000;
   const [currentBGM, setCurrentBGM] = useState<string>('');
 
   // 全ポストを1つの配列にまとめる
@@ -117,12 +118,12 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
 
   // ポスト生成のuseEffect
   useEffect(() => {
-    // 定期的にポストを生成（3秒間隔）
+    // 定期的にポストを生成（n秒間隔）
     const postInterval = setInterval(() => {
       if (gameState.gameStatus === 'playing') {
         generateRandomPost();
       }
-    }, 3000);
+    }, postIntervalMs);
 
     return () => {
       clearInterval(postInterval);
@@ -149,7 +150,7 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
     setActivePosts(prev => prev.filter(post => post.id !== postId));
     
     // ポストが吸収されると陰謀度が2-4増加（確実に増加させる）
-    const increase = Math.floor(Math.random() * 3) + 2;
+    const increase = Math.floor(Math.random() * 10) + 1;
     console.log(`陰謀度を ${increase} 増加させます`);
     
     const newLevel = Math.min(50, gameState.conspiracyLevel + increase);

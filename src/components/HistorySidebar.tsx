@@ -114,7 +114,7 @@ export default function HistorySidebar({
                 <div className="mt-3 text-center">
                   <div className="inline-flex items-center bg-blue-500/20 rounded-full px-3 py-1 border border-blue-400/30">
                     <span className="text-blue-300 text-sm font-medium">
-                      ⬇️ 陰謀度 -{((input.persuasive + input.empathy) * 0.5).toFixed(1)}
+                      ⬇️ 陰謀度 -{((input.persuasive + input.empathy)).toFixed(1)}
                     </span>
                   </div>
                 </div>

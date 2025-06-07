@@ -53,7 +53,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
     }));
 
     // 説得と共感の効果で陰謀度を減少
-    const reduction = (input.persuasive + input.empathy) * 0.5;
+    const reduction = (input.persuasive + input.empathy);
     updateConspiracyLevel(-reduction);
   };
 
