@@ -221,7 +221,7 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
       <div className="fixed top-0 left-0 right-80 h-20 bg-gradient-to-r from-slate-800/90 to-purple-800/90 backdrop-blur-md border-b-2 border-purple-500/50 z-30 shadow-2xl">
         <div className="h-full flex items-center justify-between px-8">
           <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            陰謀論説得ゲーム
+            {theme}
           </h1>
           <div className="flex items-center space-x-6">
             {/* 陰謀度表示 */}
@@ -295,11 +295,11 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
           post={post}
           onAbsorbed={() => handlePostAbsorbed(post.id)}
           startPosition={{ 
-            x: -400, 
+            x: 200, 
             y: post.yPosition 
           }}
           targetPosition={{ 
-            x: 400, 
+            x: 600, 
             y: 300 
           }}
         />
