@@ -2,16 +2,18 @@ import { ApiResponse } from '@/types/game';
 
 const API_BASE_URL = 'http://localhost:8080';
 
-export async function evaluateInput(inputText: string): Promise<ApiResponse> {
+export async function evaluateInput(theme: string, inputText: string): Promise<ApiResponse> {
   try {
-    const prompt = `テーマを踏まえ、ターゲットに対する入力の説得力と共感力をそれぞれ５段階(1-5)で評価し、json形式{"persuasive": (説得力), "empathy": (共感力)}で出力してください。エラーの場合はどちらの評価も0でお願いします。\n\n入力: ${inputText}`;
+    const prompt = `${inputText}`;
+    console.log("send text")
+    console.log(inputText)
     
     const response = await fetch(API_BASE_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ prompt })
+      body: JSON.stringify({ "theme": theme, "input": prompt })
     });
 
     if (!response.ok) {

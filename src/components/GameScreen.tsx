@@ -22,10 +22,11 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
   const [userInputs, setUserInputs] = useState<any[]>([]);
   const [nextPostId, setNextPostId] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
+  const theme: string = "地球平面説・天動説";
   const [currentBGM, setCurrentBGM] = useState<string>('');
 
   // 全ポストを1つの配列にまとめる
-  const allPosts: Post[] = Object.values(postsData as PostData).flat();
+  const allPosts: Post[] = (postsData as PostData)[theme];
 
   // 利用可能な縦位置を定義（UIコンポーネントと重ならない範囲）
   const availableYPositions = useMemo(() => [150, 220, 290, 360, 430, 500], []);
@@ -171,7 +172,7 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
           totalEmpathy: gameState.totalEmpathy
         });
       } else {
-        const result = await evaluateInput(inputText.trim());
+        const result = await evaluateInput(theme, inputText.trim());
 
         const newInput = {
           text: inputText.trim(),
