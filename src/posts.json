@@ -17,6 +17,108 @@
       "account_id": "@spacetruth",
       "text_content": "太陽と月は同じ大きさで地球の上を回っている。古代の人が正しかった。",
       "hash_tags": ["#天動説", "#太陽", "#月"]
+    },
+    {
+      "account_name": "南極の壁",
+      "account_id": "@antarctic_wall",
+      "text_content": "南極は大陸じゃない。我々を閉じ込める巨大な氷の壁だ。だから各国の軍隊が監視している。",
+      "hash_tags": ["#南極の壁", "#氷の壁", "#世界の果て"]
+    },
+    {
+      "account_name": "フライトトラッカー",
+      "account_id": "@flighttruth",
+      "text_content": "南半球をまっすぐ飛ぶ飛行機が存在しないのはなぜか？地図がおかしいからに決まってる。",
+      "hash_tags": ["#フライトレーダー", "#航路の謎", "#フラットアース"]
+    },
+    {
+      "account_name": "NASAウォッチャー",
+      "account_id": "@nasawatcher",
+      "text_content": "NASAの宇宙写真はすべてCGか魚眼レンズで加工されている。本物の写真など一枚もない。",
+      "hash_tags": ["#NASA嘘", "#CG", "#宇宙詐欺"]
+    },
+    {
+      "account_name": "ドーム信者",
+      "account_id": "@firmamentbeliever",
+      "text_content": "我々は巨大なドームに覆われた世界に住んでいる。空はその天井に映された映像だ。",
+      "hash_tags": ["#ドーム", "#天蓋", "#閉鎖世界"]
+    },
+    {
+      "account_name": "水の証明",
+      "account_id": "@water_level",
+      "text_content": "水は常に水平を保つ。海の水が球体の表面に張り付いているなんて物理的にありえない。",
+      "hash_tags": ["#水の物理", "#水平", "#地球平面"]
+    },
+    {
+      "account_name": "星々の動き",
+      "account_id": "@star_rotator",
+      "text_content": "北極星を中心に星が回る。これは地球が止まっている動かぬ証拠だ。",
+      "hash_tags": ["#北極星", "#星の軌道", "#地動説は嘘"]
+    },
+    {
+      "account_name": "失われた知識",
+      "account_id": "@lost_knowledge",
+      "text_content": "昔の人は真実を知っていた。日食も月食も、天体の動きで完璧に説明できる。",
+      "hash_tags": ["#古代の知恵", "#天動説の復活", "#真の天文学"]
+    },
+    {
+      "account_name": "レーザー実験家",
+      "account_id": "@laser_prover",
+      "text_content": "長距離レーザー実験で証明済み。何十キロも先に照射して、光は全く落ちなかった。地球の湾曲なんてない。",
+      "hash_tags": ["#レーザー実験", "#地球平面", "#科学の勝利"]
+    },
+    {
+      "account_name": "フーコーの振り子",
+      "account_id": "@foucault_lie",
+      "text_content": "フーコーの振り子が地球の自転を証明してるって？あれは天井のモーターで少しずつ回してるだけだよ。",
+      "hash_tags": ["#フーコーの振り子", "#自転は嘘", "#トリック"]
+    },
+    {
+      "account_name": "真空の謎",
+      "account_id": "@vacuum_mystery",
+      "text_content": "宇宙が真空なら、ロケットは推進力を得られない。押すものがないんだから。宇宙旅行なんて作り話だ。",
+      "hash_tags": ["#真空", "#宇宙嘘", "#ロケット"]
+    },
+    {
+      "account_name": "古代の地図",
+      "account_id": "@ancient_maps",
+      "text_content": "ピリ・レイスの地図には、氷に覆われる前の南極が描かれている。古代人は真の地球の形を知っていた。",
+      "hash_tags": ["#ピリレイス", "#古代地図", "#オーパーツ"]
+    },
+    {
+      "account_name": "コリオリの力は嘘",
+      "account_id": "@coriolis_fraud",
+      "text_content": "台風の渦や水の渦がコリオリの力だというなら、なぜ洗面台の渦は毎回向きが違うんだ？説明できないだろ。",
+      "hash_tags": ["#コリオリの力", "#科学の嘘", "#矛盾"]
+    },
+    {
+      "account_name": "エーテル理論",
+      "account_id": "@aether_revival",
+      "text_content": "重力ではなくエーテルの浮力が全てを説明する。アインシュタインは意図的に真実を隠したんだ。",
+      "hash_tags": ["#エーテル", "#相対性理論は嘘", "#隠された科学"]
+    },
+    {
+      "account_name": "聖書の宇宙観",
+      "account_id": "@biblical_cosmos",
+      "text_content": "聖書には「大地には果てがある」「天には大空がある」と書かれている。神の言葉こそが真実。",
+      "hash_tags": ["#聖書", "#創造論", "#神の言葉"]
+    },
+    {
+      "account_name": "測量士の告白",
+      "account_id": "@surveyor_truth",
+      "text_content": "測量士は地球の曲率を計算に入れていない。常に平らな面として計算している。それが答えだ。",
+      "hash_tags": ["#測量", "#エンジニアの常識", "#曲率ゼロ"]
+    },
+    {
+      "account_name": "ヘリコプター静止",
+      "account_id": "@heli_question",
+      "text_content": "地球が時速1600kmで自転してるなら、ヘリコプターが1時間ホバリングしたら1600km移動してるはず。なぜ同じ場所にいる？",
+      "hash_tags": ["#自転の謎", "#ヘリコプター", "#物理法則の破綻"]
+    },
+    {
+      "account_name": "サン・ゲイジング",
+      "account_id": "@sun_gazer",
+      "text_content": "太陽が1億5000万kmも離れているなら、なぜ場所によって大きさが違って見える？太陽はもっと近くにある。",
+      "hash_tags": ["#太陽の距離", "#近くの太陽", "#騙されるな"]
     }
   ],
   "グレートリセット": [
@@ -37,6 +139,108 @@
       "account_id": "@futurepredict",
       "text_content": "デジタル通貨で完全監視社会。現金を守り抜こう。",
       "hash_tags": ["#デジタル通貨", "#監視社会", "#現金"]
+    },
+    {
+      "account_name": "アジェンダ2030",
+      "account_id": "@agenda2030alert",
+      "text_content": "SDGsは聞こえがいいが、中身はグレートリセットのためのアジェンダだ。",
+      "hash_tags": ["#SDGsの罠", "#アジェンダ2030", "#新世界秩序"]
+    },
+    {
+      "account_name": "食糧危機インフォ",
+      "account_id": "@foodcrisis_info",
+      "text_content": "意図的に食糧危機が作られている。次は昆虫食を強制されるぞ。",
+      "hash_tags": ["#昆虫食", "#食糧危機", "#計画的"]
+    },
+    {
+      "account_name": "ダボス会議リーク",
+      "account_id": "@davosleaks",
+      "text_content": "ダボス会議でエリートたちが我々の未来を決めている。招待されていない我々には何も知らされない。",
+      "hash_tags": ["#ダボス会議", "#エリート支配", "#秘密主義"]
+    },
+    {
+      "account_name": "都市封鎖の真実",
+      "account_id": "@lockdown_truth",
+      "text_content": "パンデミックはリセットの口実。行動を制限し、中小企業を潰し、支配を強化するのが目的だった。",
+      "hash_tags": ["#パンデミックの嘘", "#都市封鎖", "#リセット"]
+    },
+    {
+      "account_name": "ベーシックインカムの罠",
+      "account_id": "@ubi_trap",
+      "text_content": "ベーシックインカムは自由と引き換えの奴隷契約。一度受け取れば、政府に逆らえなくなる。",
+      "hash_tags": ["#ベーシックインカム", "#奴隷制度", "#自由剥奪"]
+    },
+    {
+      "account_name": "クラウス・シュワブ",
+      "account_id": "@schwab_watcher",
+      "text_content": "クラウス・シュワブの著書を読め。全てそこに書かれている。彼らは隠そうともしていない。",
+      "hash_tags": ["#クラウスシュワブ", "#計画書", "#世界の支配者"]
+    },
+    {
+      "account_name": "反グローバリズム",
+      "account_id": "@no_globalism",
+      "text_content": "国境をなくし、文化を破壊し、全てを均一化する。それがグローバリストの狙いだ。",
+      "hash_tags": ["#反グローバル", "#国家主権", "#文化防衛"]
+    },
+    {
+      "account_name": "スマートシティの罠",
+      "account_id": "@smartcity_trap",
+      "text_content": "「15分都市」計画は、住民を特定の地区に閉じ込めるためのデジタル監獄だ。移動の自由がなくなる。",
+      "hash_tags": ["#15分都市", "#スマートシティ", "#デジタル監獄"]
+    },
+    {
+      "account_name": "ESGスコア監視",
+      "account_id": "@esg_watch",
+      "text_content": "企業のESGスコアは、エリートの価値観に従う企業だけを生き残らせるための選別ツールだ。",
+      "hash_tags": ["#ESG", "#思想統制", "#企業の選別"]
+    },
+    {
+      "account_name": "食の未来",
+      "account_id": "@future_of_food",
+      "text_content": "彼らは伝統的な農業と畜産を破壊し、我々に培養肉と昆虫を食べさせようとしている。",
+      "hash_tags": ["#培養肉", "#昆虫食", "#食の支配"]
+    },
+    {
+      "account_name": "社会信用スコア",
+      "account_id": "@social_credit_jp",
+      "text_content": "CBDCが導入されれば、政府に都合の悪い発言をした者の預金は即時凍結される。社会信用スコアの始まり。",
+      "hash_tags": ["#社会信用スコア", "#CBDC", "#資産凍結"]
+    },
+    {
+      "account_name": "アジェンダ21",
+      "account_id": "@agenda21_exposed",
+      "text_content": "アジェンダ21、アジェンダ2030。名前は変われど目的は同じ。人類の管理と支配。",
+      "hash_tags": ["#アジェンダ21", "#国連の陰謀", "#持続可能性の嘘"]
+    },
+    {
+      "account_name": "プロパティ・パス",
+      "account_id": "@property_pass",
+      "text_content": "デジタルIDに全ての資産情報が紐付けられる。家も車も、彼らの許可なくしては売買できなくなる。",
+      "hash_tags": ["#デジタルID", "#資産管理", "#許可制社会"]
+    },
+    {
+      "account_name": "イベント・プランナー",
+      "account_id": "@event_planner_x",
+      "text_content": "パンデミックも、戦争も、食糧危機も、全ては計画されたイベント。リセット断行のための口実作りだ。",
+      "hash_tags": ["#計画された危機", "#恐怖支配", "#マッチポンプ"]
+    },
+    {
+      "account_name": "ユヴァル・ノア・ハラリ",
+      "account_id": "@harari_decoded",
+      "text_content": "WEFの思想的指導者、ハラリは「人間はハック可能な動物だ」と言った。彼らは我々を家畜としか見ていない。",
+      "hash_tags": ["#ハラリ", "#ハック可能", "#人間家畜化"]
+    },
+    {
+      "account_name": "サイバーパンデミック",
+      "account_id": "@cyber_pandemic",
+      "text_content": "次の計画はサイバーパンデミックだ。電力網と金融システムを停止させ、大混乱を引き起こすだろう。",
+      "hash_tags": ["#サイバー攻撃", "#次のパンデミック", "#インフラ破壊"]
+    },
+    {
+      "account_name": "脱炭素の嘘",
+      "account_id": "@carbon_scam",
+      "text_content": "脱炭素は産業を破壊し、発展途上国を貧しいままにするための口実。CO2は悪者ではない。",
+      "hash_tags": ["#脱炭素", "#CO2", "#経済破壊"]
     }
   ],
   "気象兵器・人工地震": [
@@ -57,6 +261,108 @@
       "account_id": "@disasterwarning",
       "text_content": "台風の進路が人工的に操作されている。誰かが操っている。",
       "hash_tags": ["#台風操作", "#気象操作", "#人工災害"]
+    },
+    {
+      "account_name": "空の真実",
+      "account_id": "@sky_truth",
+      "text_content": "飛行機雲がいつまでも消えないのはケムトレイルだから。有害物質が撒かれている。",
+      "hash_tags": ["#ケムトレイル", "#飛行機雲", "#大気汚染"]
+    },
+    {
+      "account_name": "地震予知",
+      "account_id": "@quake_predict",
+      "text_content": "特定の日に、特定の場所で地震が起きると予告があった。偶然とは思えない。",
+      "hash_tags": ["#地震予告", "#計画的犯行", "#偶然じゃない"]
+    },
+    {
+      "account_name": "電磁波兵器",
+      "account_id": "@em_weapon",
+      "text_content": "指向性エネルギー兵器で山火事を起こしている。カリフォルニアの山火事がその証拠。",
+      "hash_tags": ["#指向性エネルギー兵器", "#DEW", "#山火事"]
+    },
+    {
+      "account_name": "雲ウォッチャー",
+      "account_id": "@cloudwatcher_jp",
+      "text_content": "最近、地震雲でもないのに、波状の奇妙な雲がよく現れる。これは電磁波の影響だ。",
+      "hash_tags": ["#不自然な雲", "#電磁波", "#空を見上げよう"]
+    },
+    {
+      "account_name": "海底掘削",
+      "account_id": "@deepsea_drill",
+      "text_content": "海底を掘削してプレートを刺激し、意図的に地震を誘発している。資源が目的か。",
+      "hash_tags": ["#海底掘削船", "#プレート刺激", "#資源戦争"]
+    },
+    {
+      "account_name": "洪水とダム",
+      "account_id": "@flood_dam",
+      "text_content": "大雨のタイミングでダムを放流して、意図的に洪水を起こし被害を拡大させている。",
+      "hash_tags": ["#ダム放流", "#人災", "#計画的洪水"]
+    },
+    {
+      "account_name": "気象ドットコム",
+      "account_id": "@weather_com_scam",
+      "text_content": "天気予報が正確すぎる。予報ではなく、予定を知らせているだけだ。",
+      "hash_tags": ["#天気予報", "#気象予定", "#操作済み"]
+    },
+    {
+      "account_name": "ジオエンジニアリング",
+      "account_id": "@geoengineering_x",
+      "text_content": "太陽光を遮断するために成層圏に微粒子を散布する「ジオエンジニアリング」が秘密裏に行われている。",
+      "hash_tags": ["#ジオエンジニアリング", "#太陽光遮断", "#気候改変"]
+    },
+    {
+      "account_name": "雲の種まき",
+      "account_id": "@cloud_seeding",
+      "text_content": "特定の地域にだけ雨を降らせたり、逆に雨雲を消したりする「クラウドシーディング」は既に実用化されている兵器だ。",
+      "hash_tags": ["#クラウドシーディング", "#人工降雨", "#水資源戦争"]
+    },
+    {
+      "account_name": "噴火誘発",
+      "account_id": "@volcano_trigger",
+      "text_content": "地下深くに高出力の電磁波を照射し、マグマだまりを刺激して火山噴火を誘発することも可能らしい。",
+      "hash_tags": ["#火山噴火", "#噴火誘発", "#マグマ"]
+    },
+    {
+      "account_name": "海流操作",
+      "account_id": "@ocean_current_ctrl",
+      "text_content": "海中の巨大な構造物で海流の温度や流れを操作し、エルニーニョやラニーニャを人工的に作り出している。",
+      "hash_tags": ["#海流操作", "#エルニーニョ", "#ラニーニャ"]
+    },
+    {
+      "account_name": "ライオンロック",
+      "account_id": "@typhoon_lionrock",
+      "text_content": "2016年の台風10号「ライオンロック」の迷走ぶりを覚えているか？あれほど不自然な進路は操作以外に考えられない。",
+      "hash_tags": ["#ライオンロック", "#台風10号", "#不自然な進路"]
+    },
+    {
+      "account_name": "地震光",
+      "account_id": "@eq_light",
+      "text_content": "大地震の直前に目撃される発光現象「地震光」は、HAARPから照射された電磁波がプラズマ化したものだ。",
+      "hash_tags": ["#地震光", "#プラズマ兵器", "#前兆"]
+    },
+    {
+      "account_name": "農業テロ",
+      "account_id": "@agri_terror",
+      "text_content": "特定の農産地帯にだけ干ばつや雹を発生させ、食糧価格を高騰させる。これも気象兵器による経済攻撃。",
+      "hash_tags": ["#干ばつ", "#雹", "#農業攻撃"]
+    },
+    {
+      "account_name": "特許情報",
+      "account_id": "@patent_weather",
+      "text_content": "気象改変技術の特許を検索してみろ。我々が知らないだけで、とっくの昔に開発されている技術ばかりだ。",
+      "hash_tags": ["#特許", "#公開情報", "#開発済み"]
+    },
+    {
+      "account_name": "宇宙からの攻撃",
+      "account_id": "@space_attack",
+      "text_content": "軍事衛星に搭載された兵器からマイクロ波を照射し、地表の特定の点を加熱して災害を引き起こす。",
+      "hash_tags": ["#神の杖", "#マイクロ波兵器", "#宇宙軍"]
+    },
+    {
+      "account_name": "地震予知は可能",
+      "account_id": "@eq_is_predictable",
+      "text_content": "「地震予知は不可能」だと学者は言う。それは自然地震の場合だ。人工地震は「いつ、どこで」起こすか計画されているから予知できる。",
+      "hash_tags": ["#地震予知", "#計画", "#予知可能"]
     }
   ],
   "反ワクチン・ナノボット": [
@@ -77,6 +383,108 @@
       "account_id": "@naturalimmune",
       "text_content": "自然免疫の方が強い。人工的な免疫なんて危険すぎる。",
       "hash_tags": ["#自然免疫", "#人工免疫", "#危険"]
+    },
+    {
+      "account_name": "シェディング警告",
+      "account_id": "@shedding_alert",
+      "text_content": "接種者から有害なスパイクタンパクが放出されている（シェディング）。未接種者も危険に晒されている。",
+      "hash_tags": ["#シェディング", "#スパイクタンパク", "#伝播"]
+    },
+    {
+      "account_name": "磁石チャレンジ",
+      "account_id": "@magnet_challenge",
+      "text_content": "接種した腕に磁石がくっつく。これは体内に金属物質、おそらく酸化グラフェンが注入された証拠だ。",
+      "hash_tags": ["#酸化グラフェン", "#磁石", "#体内金属"]
+    },
+    {
+      "account_name": "超過死亡データ",
+      "account_id": "@excessdeath_jp",
+      "text_content": "接種開始後、世界中で超過死亡が急増している。メディアはこれを報じない。",
+      "hash_tags": ["#超過死亡", "#統計データ", "#不都合な真実"]
+    },
+    {
+      "account_name": "ターボ癌",
+      "account_id": "@turbocancer",
+      "text_content": "接種後に急激に進行する癌、「ターボ癌」が報告されている。免疫システムが破壊されたせいだ。",
+      "hash_tags": ["#ターボ癌", "#免疫不全", "#癌急増"]
+    },
+    {
+      "account_name": "ブルートゥース接続",
+      "account_id": "@bluetooth_connect",
+      "text_content": "接種会場や満員電車でブルートゥースをスキャンすると、謎のMACアドレスが大量に表示される。これは体内のナノボットだ。",
+      "hash_tags": ["#ブルートゥース", "#MACアドレス", "#ナノボット"]
+    },
+    {
+      "account_name": "人口削減計画",
+      "account_id": "@depopulation_plan",
+      "text_content": "ビル・ゲイツは言った、「ワクチンで人口を削減できる」と。これは壮大な人口削減計画の一環だ。",
+      "hash_tags": ["#ビルゲイツ", "#人口削減", "#優生思想"]
+    },
+    {
+      "account_name": "解毒方法",
+      "account_id": "@detox_info",
+      "text_content": "イベルメクチン、亜鉛、ビタミンC。彼らが隠す本当の治療法、解毒法がある。",
+      "hash_tags": ["#解毒", "#イベルメクチン", "#隠された治療法"]
+    },
+    {
+      "account_name": "VAERSレポート",
+      "account_id": "@vaers_report_jp",
+      "text_content": "米国のVAERS（ワクチン有害事象報告システム）には膨大な数の健康被害が報告されている。なぜこれが報道されない？",
+      "hash_tags": ["#VAERS", "#有害事象", "#報道しない自由"]
+    },
+    {
+      "account_name": "心筋炎リスク",
+      "account_id": "@myocarditis_risk",
+      "text_content": "若者の心筋炎、心膜炎が接種後に急増。これは偶然ではない。厚労省も認めている事実だ。",
+      "hash_tags": ["#心筋炎", "#心膜炎", "#若者へのリスク"]
+    },
+    {
+      "account_name": "長期的な影響",
+      "account_id": "@longterm_effects",
+      "text_content": "本当の恐怖は長期的な影響だ。不妊、自己免疫疾患、プリオン病。数年後に何が起きるかわからない。",
+      "hash_tags": ["#長期副反応", "#不妊", "#プリオン病"]
+    },
+    {
+      "account_name": "特許の中身",
+      "account_id": "@patent_decoded",
+      "text_content": "モデルナの特許を読んだか？自己組織化するハイドロゲルや量子ドットの記述がある。これはもはやワクチンではない。",
+      "hash_tags": ["#ハイドロゲル", "#量子ドット", "#自己組織化"]
+    },
+    {
+      "account_name": "トランスヒューマニズム",
+      "account_id": "@transhumanism_now",
+      "text_content": "これは病気を防ぐためじゃない。人間と機械を融合させるトランスヒューマニズムへの第一歩だ。",
+      "hash_tags": ["#トランスヒューマニズム", "#人間2.0", "#融合"]
+    },
+    {
+      "account_name": "スパイクタンパクは毒",
+      "account_id": "@spike_is_poison",
+      "text_content": "ウイルス本体より、ワクチンが体内で作り出すスパイクタンパクそのものが細胞を傷つける毒だという論文が出ている。",
+      "hash_tags": ["#スパイクタンパク質", "#細胞毒性", "#論文"]
+    },
+    {
+      "account_name": "ロットによる差",
+      "account_id": "@lot_difference",
+      "text_content": "ワクチンのロット番号によって有害事象の発生率が全く違う。中身が違う、つまり人体実験が行われている証拠だ。",
+      "hash_tags": ["#ロット番号", "#人体実験", "#当たり外れ"]
+    },
+    {
+      "account_name": "ファイザー機密文書",
+      "account_id": "@pfizer_documents",
+      "text_content": "裁判によって公開されたファイザーの内部文書には、おびただしい数の有害事象がリストアップされている。",
+      "hash_tags": ["#ファイザー文書", "#内部告発", "#情報公開"]
+    },
+    {
+      "account_name": "抗体依存性増強",
+      "account_id": "@ade_warning",
+      "text_content": "ADE（抗体依存性増強）が起きれば、ワクチンを打った人ほど、次の感染で重症化する。",
+      "hash_tags": ["#ADE", "#抗体依存性増強", "#重症化リスク"]
+    },
+    {
+      "account_name": "ビッグファーマの利益",
+      "account_id": "@bigpharma_profit",
+      "text_content": "全ては製薬会社の利益のため。彼らは病人が増えるほど儲かる。健康な人間は顧客じゃない。",
+      "hash_tags": ["#ビッグファーマ", "#製薬会社", "#利益相反"]
     }
   ],
   "ディープステート": [
@@ -97,6 +505,108 @@
       "account_id": "@secretexpose",
       "text_content": "世界の富豪が会議で決めている。我々は知らされていない。",
       "hash_tags": ["#秘密会議", "#富豪", "#世界支配"]
+    },
+    {
+      "account_name": "Qアノン情報局",
+      "account_id": "@qanon_jp",
+      "text_content": "Qの計画は進行中。嵐はもうすぐ来る。信じて待て。",
+      "hash_tags": ["#Qanon", "#WWG1WGA", "#嵐"]
+    },
+    {
+      "account_name": "国際金融資本",
+      "account_id": "@global_finance",
+      "text_content": "戦争も不況も、すべては国際金融資本が利益を得るために仕組まれている。",
+      "hash_tags": ["#国際金融資本", "#中央銀行", "#金儲け"]
+    },
+    {
+      "account_name": "アドレノクロム",
+      "account_id": "@adrenochrome_leak",
+      "text_content": "ハリウッドスターや政治家が若さを保つ秘訣はアドレノクロム。その原料が何か知っているか？",
+      "hash_tags": ["#アドレノクロム", "#若返り", "#人身売買"]
+    },
+    {
+      "account_name": "主流メディアの嘘",
+      "account_id": "@mainstream_lies",
+      "text_content": "テレビや新聞が報じることは全て彼らのプロパガンダだ。真実はネットにしかない。",
+      "hash_tags": ["#プロパガンダ", "#MSM", "#真実はネットに"]
+    },
+    {
+      "account_name": "秘密結社ウォッチャー",
+      "account_id": "@secret_society_w",
+      "text_content": "フリーメイソン、イルミナティ。彼らのシンボルは紙幣や建物、至る所に隠されている。",
+      "hash_tags": ["#フリーメイソン", "#イルミナティ", "#シンボル"]
+    },
+    {
+      "account_name": "覚醒者",
+      "account_id": "@awakened_one",
+      "text_content": "まだ眠っているのか？いい加減に気づけ。世界は我々が見ているようにはできていない。",
+      "hash_tags": ["#目覚めよ", "#覚醒", "#マトリックス"]
+    },
+    {
+      "account_name": "イベント201",
+      "account_id": "@event201_reveal",
+      "text_content": "パンデミックが起きる直前、「イベント201」という予行演習が行われていた。偶然だと思うか？",
+      "hash_tags": ["#イベント201", "#予行演習", "#計画的パンデミック"]
+    },
+    {
+      "account_name": "ビルダーバーグ会議",
+      "account_id": "@bilderberg_watch",
+      "text_content": "年に一度、世界の王族、政治家、CEOが秘密裏に集うビルダーバーグ会議。そこで世界の基本方針が決まる。",
+      "hash_tags": ["#ビルダーバーグ", "#秘密会議", "#世界の設計図"]
+    },
+    {
+      "account_name": "三百人委員会",
+      "account_id": "@committee_of_300",
+      "text_content": "三百人委員会こそが、イルミナティの上位に位置する真の世界政府だ。その歴史は古い。",
+      "hash_tags": ["#三百人委員会", "#真の支配者", "#オリガルヒ"]
+    },
+    {
+      "account_name": "偽旗作戦",
+      "account_id": "@false_flag_op",
+      "text_content": "あのテロ事件は偽旗作戦だ。国民の自由を奪う法律を通すための自作自演だよ。",
+      "hash_tags": ["#偽旗作戦", "#自作自演", "#マッチポンプ"]
+    },
+    {
+      "account_name": "象徴は語る",
+      "account_id": "@symbolism_speaks",
+      "text_content": "彼らは常にサインを送っている。メディアや映画に隠されたシンボルを読み解けば、次の計画がわかる。",
+      "hash_tags": ["#象徴主義", "#シンボル", "#隠されたメッセージ"]
+    },
+    {
+      "account_name": "ゲマトリア数秘術",
+      "account_id": "@gematria_code",
+      "text_content": "大事件が起きた日付をゲマトリアで計算してみろ。必ず特定の数字になる。偶然ではない。",
+      "hash_tags": ["#ゲマトリア", "#数秘術", "#暗号"]
+    },
+    {
+      "account_name": "CFR",
+      "account_id": "@cfr_exposed",
+      "text_content": "外交問題評議会（CFR）のメンバーリストを見れば、誰がアメリカを実質的に動かしているか一目瞭然だ。",
+      "hash_tags": ["#外交問題評議会", "#CFR", "#影の政府"]
+    },
+    {
+      "account_name": "代理戦争",
+      "account_id": "@proxy_wars_truth",
+      "text_content": "今起きている戦争は全て代理戦争。大国同士が直接戦わず、他国を駒として使って争っているだけだ。",
+      "hash_tags": ["#代理戦争", "#駒", "#地政学"]
+    },
+    {
+      "account_name": "計画された混乱",
+      "account_id": "@planned_chaos",
+      "text_content": "秩序から混沌を、そして混沌から新秩序を。彼らは意図的に社会を混乱させ、その中から自分たちの望む世界を作ろうとしている。",
+      "hash_tags": ["#秩序と混沌", "#問題解決", "#ヘーゲル弁証法"]
+    },
+    {
+      "account_name": "プロジェクト・ブルービーム",
+      "account_id": "@project_bluebeam",
+      "text_content": "次のステップは、宇宙人襲来を偽装するプロジェクト・ブルービームだ。巨大なホログラムで世界を騙す。",
+      "hash_tags": ["#ブルービーム計画", "#UFO", "#偽りの救世主"]
+    },
+    {
+      "account_name": "思想警察",
+      "account_id": "@thought_police_jp",
+      "text_content": "「陰謀論」という言葉自体が、真実に近づく者を黙らせるためのレッテル貼り。思考を停止させるための強力な武器だ。",
+      "hash_tags": ["#陰謀論者というレッテル", "#言論統制", "#思考停止"]
     }
   ]
 }
