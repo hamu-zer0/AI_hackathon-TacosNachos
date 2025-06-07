@@ -26,7 +26,7 @@ export default function PostComponent({
     // JavaScriptでアニメーション開始のトリガーと onAbsorbed を呼び出す
     const absorbTimer = setTimeout(() => {
       setIsAbsorbing(true); // 吸収アニメーションのトリガー
-    }, 6000);
+    }, 10000);
 
     return () => {
       clearTimeout(absorbTimer);

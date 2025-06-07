@@ -22,8 +22,9 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
   const [userInputs, setUserInputs] = useState<any[]>([]);
   const [nextPostId, setNextPostId] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const theme: string = "地球平面説・天動説";
-  const postIntervalMs: number = 6000;
+  const theme: string = "反ワクチン・ナノボット";
+  const postIntervalMs: number = 10000;
+  const inputRef = useRef<HTMLInputElement>(null);
   const [currentBGM, setCurrentBGM] = useState<string>('');
 
   // 全ポストを1つの配列にまとめる
@@ -47,7 +48,7 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
     // 現在時刻をランダムに過去の時間にする（最大60分前）
     const now = new Date();
     const minutesAgo = Math.floor(Math.random() * 60);
-    const postTime = new Date(now.getTime() - minutesAgo * 60000);
+    const postTime = new Date(now.getTime() - minutesAgo * 100000);
     
     const newPost: PostWithMetadata = {
       ...randomPost,
@@ -65,6 +66,12 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
     setActivePosts(prev => [...prev, newPost]);
     setNextPostId(prev => prev + 1);
   }, [allPosts, nextPostId, availableYPositions]);
+
+  useEffect(() => {
+    if(inputRef.current) {
+      inputRef.current.focus();
+    }
+  },[inputRef]);
 
   // BGM管理のuseEffect
   useEffect(() => {
@@ -263,6 +270,7 @@ export default function GameScreen({ gameState, updateGameState, onRestart }: Ga
                   placeholder="ターゲットを説得する言葉を入力してください..."
                   className="w-full px-6 py-4 rounded-xl bg-gradient-to-r from-gray-800/90 to-gray-700/90 text-white placeholder-gray-300 border-2 border-gray-600/50 focus:border-blue-400 focus:outline-none transition-all duration-300 text-lg backdrop-blur-sm"
                   disabled={isLoading}
+                  ref={inputRef}
                 />
                 {isLoading && (
                   <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
