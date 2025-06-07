@@ -2,7 +2,7 @@ export interface GameState {
   conspiracyLevel: number;
   totalPersuasive: number;
   totalEmpathy: number;
-  gameStatus: 'start' | 'playing' | 'gameOver';
+  gameStatus: 'start' | 'playing' | 'gameOver' | 'win';
 }
 
 export interface ApiResponse {
@@ -22,6 +22,15 @@ export interface Post {
   account_id: string;
   text_content: string;
   hash_tags: string[];
+}
+
+export interface PostWithMetadata extends Post {
+  id: number;
+  yPosition: number;
+  timestamp: string;
+  likes: number;
+  retweets: number;
+  comments: number;
 }
 
 export interface PostData {

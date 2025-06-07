@@ -20,11 +20,11 @@ export default function GameOverScreen({ onRestart }: GameOverScreenProps) {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-red-900 via-red-800 to-black text-white relative overflow-hidden">
-      {/* 背景画像のプレースホルダー */}
-      <div className="absolute inset-0 opacity-30">
+    <div className="h-screen flex flex-col items-center justify-center bg-gradient-to-b from-red-900 via-red-800 to-black text-white relative overflow-hidden">
+      {/* 背景画像 */}
+      <div className="absolute inset-0 opacity-80">
         <div className="w-full h-full bg-cover bg-center" style={{
-          backgroundImage: "url('/background-gameover.jpg')"
+          backgroundImage: "url('/kyusai_lose.png')"
         }} />
       </div>
 
@@ -78,7 +78,7 @@ export default function GameOverScreen({ onRestart }: GameOverScreenProps) {
             onClick={onRestart}
             className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-full text-xl transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
-            🔄 もう一度挑戦する
+            🔄 タイトルへ戻る
           </button>
           
           <div className="text-gray-400 text-sm">

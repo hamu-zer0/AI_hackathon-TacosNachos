@@ -5,6 +5,7 @@ import StartScreen from '@/components/StartScreen';
 import GameScreen from '@/components/GameScreen';
 import GameOverScreen from '@/components/GameOverScreen';
 import { GameState } from '@/types/game';
+import WinScreen from '@/components/WinScreen';
 
 export default function Home() {
   const [gameState, setGameState] = useState<GameState>({
@@ -35,9 +36,11 @@ export default function Home() {
     case 'start':
       return <StartScreen onStart={startGame} />;
     case 'playing':
-      return <GameScreen gameState={gameState} updateGameState={updateGameState} />;
+      return <GameScreen gameState={gameState} updateGameState={updateGameState} onRestart={restartGame} />;
     case 'gameOver':
       return <GameOverScreen onRestart={restartGame} />;
+    case 'win':
+      return <WinScreen onRestart={restartGame} />;
     default:
       return <StartScreen onStart={startGame} />;
   }

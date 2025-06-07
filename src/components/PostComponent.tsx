@@ -1,10 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Post } from '@/types/game';
+import { PostWithMetadata } from '@/types/game';
 
 interface PostComponentProps {
-  post: Post;
+  post: PostWithMetadata;
   onAbsorbed: () => void;
   startPosition?: { x: number; y: number };
   targetPosition?: { x: number; y: number };
@@ -13,7 +13,7 @@ interface PostComponentProps {
 export default function PostComponent({ 
   post, 
   onAbsorbed, 
-  startPosition = { x: -300, y: Math.random() * 400 + 100 },
+  startPosition = { x: -300, y: 200 },
   targetPosition = { x: 600, y: 300 }
 }: PostComponentProps) {
   const [position, setPosition] = useState(startPosition);
@@ -21,36 +21,32 @@ export default function PostComponent({
   const [opacity, setOpacity] = useState(1);
 
   useEffect(() => {
-    // 初期位置から画面内に移動
-    const moveTimer = setTimeout(() => {
+    let moveTimer: NodeJS.Timeout;
+    let absorbTimer: NodeJS.Timeout;
+
+    // 100ms後に画面内に移動
+    moveTimer = setTimeout(() => {
       setPosition({ x: 50, y: startPosition.y });
     }, 100);
 
     // 3秒後に吸収アニメーション開始
-    const absorbTimer = setTimeout(() => {
-      setIsAbsorbing(true);
+    absorbTimer = setTimeout(() => {
       setPosition(targetPosition);
-      setOpacity(0);
+      onAbsorbed();
     }, 3000);
 
-    // 4秒後に完全に削除
-    const removeTimer = setTimeout(() => {
-      onAbsorbed();
-    }, 4000);
-
+    // クリーンアップ関数
     return () => {
-      clearTimeout(moveTimer);
-      clearTimeout(absorbTimer);
-      clearTimeout(removeTimer);
+      if (moveTimer) clearTimeout(moveTimer);
+      if (absorbTimer) clearTimeout(absorbTimer);
     };
-  }, [startPosition, targetPosition, onAbsorbed]);
+  }, [startPosition.y, targetPosition, onAbsorbed]); // 必要な依存関係を追加
 
   return (
     <div
       className={`
         fixed z-20 w-80 bg-white rounded-xl shadow-lg border border-gray-200 p-4
         transition-all duration-1000 ease-in-out
-        ${isAbsorbing ? 'transform scale-50' : 'transform scale-100'}
       `}
       style={{
         left: `${position.x}px`,
@@ -68,7 +64,7 @@ export default function PostComponent({
           <div className="text-gray-500 text-sm">{post.account_id}</div>
         </div>
         <div className="ml-auto text-gray-400 text-xs">
-          {new Date().toLocaleTimeString()}
+          {post.timestamp}
         </div>
       </div>
 
@@ -94,26 +90,21 @@ export default function PostComponent({
         <div className="flex space-x-4">
           <button className="flex items-center space-x-1 hover:text-blue-500">
             <span>💬</span>
-            <span>{Math.floor(Math.random() * 50)}</span>
+            <span>{post.comments}</span>
           </button>
           <button className="flex items-center space-x-1 hover:text-green-500">
             <span>🔄</span>
-            <span>{Math.floor(Math.random() * 100)}</span>
+            <span>{post.retweets}</span>
           </button>
           <button className="flex items-center space-x-1 hover:text-red-500">
             <span>❤️</span>
-            <span>{Math.floor(Math.random() * 200)}</span>
+            <span>{post.likes}</span>
           </button>
         </div>
         <button className="hover:text-gray-700">
           <span>📤</span>
         </button>
       </div>
-
-      {/* 吸収エフェクト */}
-      {isAbsorbing && (
-        <div className="absolute inset-0 bg-blue-500 bg-opacity-30 rounded-xl animate-pulse" />
-      )}
     </div>
   );
 }

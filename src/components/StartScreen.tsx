@@ -29,17 +29,17 @@ export default function StartScreen({ onStart }: StartScreenProps) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-blue-900 to-purple-900 text-white relative overflow-hidden">
       {/* 背景画像のプレースホルダー */}
-      <div className="absolute inset-0 opacity-20">
+      {/* <div className="absolute inset-0 opacity-20">
         <div className="w-full h-full bg-cover bg-center" style={{
           backgroundImage: "url('/background-start.jpg')"
         }} />
-      </div>
+      </div> */}
       
       {/* BGM */}
-      <audio ref={audioRef} loop>
+      {/* <audio ref={audioRef} loop>
         <source src="/bgm.mp3" type="audio/mpeg" />
         <source src="/bgm.ogg" type="audio/ogg" />
-      </audio>
+      </audio> */}
 
       <div className="relative z-10 text-center">
         <h1 className="text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-500">
