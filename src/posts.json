@@ -1,0 +1,102 @@
+{
+  "地球平面説・天動説": [
+    {
+      "account_name": "真実探求者",
+      "account_id": "@truthseeker2024",
+      "text_content": "なぜ水平線は常に平らなのか？球体なら曲がって見えるはずでしょう。",
+      "hash_tags": ["#地球平面説", "#真実", "#目覚めよ"]
+    },
+    {
+      "account_name": "科学検証",
+      "account_id": "@scienceverify",
+      "text_content": "重力なんて存在しない。物が落ちるのは密度の違いだけ。",
+      "hash_tags": ["#重力嘘", "#密度", "#物理法則"]
+    },
+    {
+      "account_name": "宇宙の真実",
+      "account_id": "@spacetruth",
+      "text_content": "太陽と月は同じ大きさで地球の上を回っている。古代の人が正しかった。",
+      "hash_tags": ["#天動説", "#太陽", "#月"]
+    }
+  ],
+  "グレートリセット": [
+    {
+      "account_name": "経済監視者",
+      "account_id": "@economywatcher",
+      "text_content": "WEFが計画する世界統一政府。私有財産の廃止が始まっている。",
+      "hash_tags": ["#グレートリセット", "#WEF", "#私有財産"]
+    },
+    {
+      "account_name": "自由の戦士",
+      "account_id": "@freedomfighter",
+      "text_content": "「何も所有せず幸せになる」これが彼らの本当の計画。",
+      "hash_tags": ["#所有権", "#支配", "#自由"]
+    },
+    {
+      "account_name": "未来予測",
+      "account_id": "@futurepredict",
+      "text_content": "デジタル通貨で完全監視社会。現金を守り抜こう。",
+      "hash_tags": ["#デジタル通貨", "#監視社会", "#現金"]
+    }
+  ],
+  "気象兵器・人工地震": [
+    {
+      "account_name": "気象研究家",
+      "account_id": "@weatherresearch",
+      "text_content": "HAARPが異常気象を引き起こしている。自然現象じゃない。",
+      "hash_tags": ["#HAARP", "#気象兵器", "#異常気象"]
+    },
+    {
+      "account_name": "地震分析",
+      "account_id": "@earthquakeanalyst",
+      "text_content": "地震の波形が不自然。核爆発と同じパターンが見える。",
+      "hash_tags": ["#人工地震", "#波形", "#核爆発"]
+    },
+    {
+      "account_name": "災害警告",
+      "account_id": "@disasterwarning",
+      "text_content": "台風の進路が人工的に操作されている。誰かが操っている。",
+      "hash_tags": ["#台風操作", "#気象操作", "#人工災害"]
+    }
+  ],
+  "反ワクチン・ナノボット": [
+    {
+      "account_name": "医療真実",
+      "account_id": "@medicaltruth",
+      "text_content": "ワクチンにマイクロチップが入ってる。5Gで制御される。",
+      "hash_tags": ["#マイクロチップ", "#5G制御", "#ワクチン危険"]
+    },
+    {
+      "account_name": "健康守護",
+      "account_id": "@healthguardian",
+      "text_content": "mRNAがDNAを書き換える。人類改造計画の一部だ。",
+      "hash_tags": ["#mRNA", "#DNA改変", "#人類改造"]
+    },
+    {
+      "account_name": "免疫自然",
+      "account_id": "@naturalimmune",
+      "text_content": "自然免疫の方が強い。人工的な免疫なんて危険すぎる。",
+      "hash_tags": ["#自然免疫", "#人工免疫", "#危険"]
+    }
+  ],
+  "ディープステート": [
+    {
+      "account_name": "影の支配",
+      "account_id": "@shadowcontrol",
+      "text_content": "選挙は茶番。本当の支配者は裏にいる。",
+      "hash_tags": ["#ディープステート", "#選挙茶番", "#裏の支配者"]
+    },
+    {
+      "account_name": "真の権力",
+      "account_id": "@realpower",
+      "text_content": "メディアも政治家も操り人形。糸を引いているのは誰だ。",
+      "hash_tags": ["#操り人形", "#メディア操作", "#隠れた権力"]
+    },
+    {
+      "account_name": "秘密暴露",
+      "account_id": "@secretexpose",
+      "text_content": "世界の富豪が会議で決めている。我々は知らされていない。",
+      "hash_tags": ["#秘密会議", "#富豪", "#世界支配"]
+    }
+  ]
+}
